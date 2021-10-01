@@ -21,9 +21,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Clean public directory
-      run: rm -rf public
-
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
@@ -33,7 +30,7 @@ jobs:
     - run: npm test
 
     - name: Create cname file
-      run: echo 'unamenu.com' > public/CNAME
+      run: echo 'www.unamenu.com' > public/CNAME
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
