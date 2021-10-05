@@ -1,15 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import Menu from "./Menu";
 
-function App() {
+export default function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-          Learn React
-      </header>
-    </div>
+    <Router>
+      <Route path="/" component={Menu} />
+    </Router>
   );
 }
-
-export default App;
