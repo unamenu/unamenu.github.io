@@ -24,16 +24,20 @@ export default function Contact({ sectionId }) {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <div className={classes.root}>
-        {sectionId === SECTION_CONTACT && (
-          <div>
-            <div className={classes.root}>
-              <h2>Contact us</h2>
-            </div>
-            <div className={classes.root}></div>
+      {sectionId === SECTION_CONTACT && (
+        <div className={classes.root}>
+          <div className={classes.root}>
+            {sectionId === SECTION_CONTACT && (
+              <div>
+                <div className={classes.root}>
+                  <h2>Contact us</h2>
+                </div>
+                <div className={classes.root}></div>
+              </div>
+            )}
           </div>
-        )}
-      </div>
+        </div>
+      )}
     </div>
   );
 }
