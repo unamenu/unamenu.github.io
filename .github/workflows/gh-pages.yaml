@@ -31,9 +31,6 @@ jobs:
     - name: Run tests
       run: npm run test
 
-    - name: Create cname file
-      run: echo 'www.unamenu.com' > build/CNAME      
-
     - name: Upload production-ready build files
       uses: actions/upload-artifact@v2
       with:
