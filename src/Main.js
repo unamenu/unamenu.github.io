@@ -12,9 +12,10 @@ const useStyles = makeStyles((theme) => ({
   },
   body: {
     minWidth: 275,
-    justifyContent: "center",
-    alignItems: "center",
+    justifyContent: "left",
+    alignItems: "left",
     display: "flex",
+    marginTop: 10,
     marginLeft: 20,
     marginRight: 20
   },
@@ -43,6 +44,9 @@ export default function Main({ sectionId }) {
           <div className={classes.body}>
             Create and maintain smartphone friendly professional looking restaurant menus via a spreasheet.
           </div>
+          <div className={classes.body}>
+            <a href="https://m.unamenu.com">Example menus</a>
+          </div>          
         </div>
       )}
     </div>
