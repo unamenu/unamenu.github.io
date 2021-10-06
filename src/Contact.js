@@ -10,6 +10,15 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     display: "flex",
   },
+  body: {
+    minWidth: 275,
+    justifyContent: "left",
+    alignItems: "left",
+    display: "flex",
+    marginTop: 10,
+    marginLeft: 20,
+    marginRight: 20,
+  },
   bullet: {
     display: "inline-block",
     margin: "0 2px",
@@ -30,9 +39,11 @@ export default function Contact({ sectionId }) {
             {sectionId === SECTION_CONTACT && (
               <div>
                 <div className={classes.root}>
-                  <h2>Contact us</h2>
+                  <h3>Contact us</h3>                  
                 </div>
-                <div className={classes.root}></div>
+                <div className={classes.body}>
+                  Email us at info @ moscaville.com
+                </div>
               </div>
             )}
           </div>

@@ -27,7 +27,7 @@ export default function About({ sectionId }) {
       {sectionId === SECTION_ABOUT && (
         <div>
           <div className={classes.root}>
-            <h2>About unamenu</h2>
+            <h3>About unamenu</h3>
           </div>
           <div className={classes.root}></div>
         </div>
