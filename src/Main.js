@@ -10,6 +10,14 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     display: "flex",
   },
+  body: {
+    minWidth: 275,
+    justifyContent: "center",
+    alignItems: "center",
+    display: "flex",
+    marginLeft: 20,
+    marginRight: 20
+  },
   bullet: {
     display: "inline-block",
     margin: "0 2px",
@@ -27,13 +35,13 @@ export default function Main({ sectionId }) {
       {sectionId === SECTION_MAIN && (
         <div>
           <div className={classes.root}>
-            <h2>Easy custom restaurant menus</h2>
+            <h3>Easy custom restaurant menus</h3>
           </div>
           <div className={classes.root}>
-            <h4>start for free</h4>
+            <h3>get started for free</h3>
           </div>
-          <div className={classes.root}>
-            <h4>Create and maintain smartphone friendly professional looking restaurant menus via a spreasheet.</h4>
+          <div className={classes.body}>
+            Create and maintain smartphone friendly professional looking restaurant menus via a spreasheet.
           </div>
         </div>
       )}
