@@ -50,7 +50,7 @@ export default function Main({ sectionId }) {
             </ul>
           </div>
           <div className={classes.root}>
-            <h3>get started for free</h3>
+            <h3>get started for FREE</h3>
           </div>
           <div className={classes.body}>
             <a href="https://m.unamenu.com">Example menus</a>
