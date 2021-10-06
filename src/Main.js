@@ -3,6 +3,8 @@ import { SECTION_MAIN } from "./Constants";
 
 import { makeStyles } from "@material-ui/core/styles";
 
+import unamenumobileexample2 from "./unamenu-mobile-example2.svg";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     minWidth: 275,
@@ -17,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     marginTop: 10,
     marginLeft: 20,
-    marginRight: 20
+    marginRight: 20,
   },
   bullet: {
     display: "inline-block",
@@ -27,6 +29,9 @@ const useStyles = makeStyles((theme) => ({
   pos: {
     marginBottom: 12,
   },
+  img: {
+    border: "3px solid #555"
+  }
 }));
 
 export default function Main({ sectionId }) {
@@ -39,7 +44,8 @@ export default function Main({ sectionId }) {
             <h3>Easy custom restaurant menus</h3>
           </div>
           <div className={classes.body}>
-            Create and maintain smartphone friendly professional looking restaurant menus using a spreasheet.
+            Create and maintain smartphone friendly professional looking
+            restaurant menus using a spreasheet.
           </div>
           <div className={classes.body}>
             <ul>
@@ -49,12 +55,15 @@ export default function Main({ sectionId }) {
               <li>very easy to update</li>
             </ul>
           </div>
+          <div className={classes.body}>
+            <img src={unamenumobileexample2} className={classes.img} alt="example" width="75%" />
+          </div>
           <div className={classes.root}>
             <h3>get started for FREE</h3>
           </div>
           <div className={classes.body}>
             <a href="https://m.unamenu.com">Example menus</a>
-          </div>          
+          </div>
         </div>
       )}
     </div>
