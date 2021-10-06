@@ -42,7 +42,15 @@ export default function Main({ sectionId }) {
             <h3>get started for free</h3>
           </div>
           <div className={classes.body}>
-            Create and maintain smartphone friendly professional looking restaurant menus via a spreasheet.
+            Create and maintain smartphone friendly professional looking restaurant menus using a spreasheet.
+          </div>
+          <div className={classes.body}>
+            <ul>
+              <li>fast loading</li>
+              <li>search feature</li>
+              <li>select favorite items for ordering</li>
+              <li>very easy to update</li>
+            </ul>
           </div>
           <div className={classes.body}>
             <a href="https://m.unamenu.com">Example menus</a>

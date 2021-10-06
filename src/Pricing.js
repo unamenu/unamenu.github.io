@@ -50,10 +50,10 @@ export default function Pricing({ sectionId }) {
             <CardContent>
               <CardHeader title="Professional" />
               <Typography variant="h5" color="textPrimary">
-                $6/mth (paid annually)
+                $10/mth (paid annually)
               </Typography>
               <Typography variant="h5" color="textPrimary">
-                $8/mth (paid monthly)
+                $12/mth (paid monthly)
               </Typography>
               <IconButton>Get started</IconButton>
               <Typography variant="h6" color="textPrimary">
