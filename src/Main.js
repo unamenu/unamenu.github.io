@@ -38,9 +38,6 @@ export default function Main({ sectionId }) {
           <div className={classes.root}>
             <h3>Easy custom restaurant menus</h3>
           </div>
-          <div className={classes.root}>
-            <h3>get started for free</h3>
-          </div>
           <div className={classes.body}>
             Create and maintain smartphone friendly professional looking restaurant menus using a spreasheet.
           </div>
@@ -51,6 +48,9 @@ export default function Main({ sectionId }) {
               <li>select favorite items for ordering</li>
               <li>very easy to update</li>
             </ul>
+          </div>
+          <div className={classes.root}>
+            <h3>get started for free</h3>
           </div>
           <div className={classes.body}>
             <a href="https://m.unamenu.com">Example menus</a>
