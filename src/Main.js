@@ -32,6 +32,9 @@ export default function Main({ sectionId }) {
           <div className={classes.root}>
             <h4>start for free</h4>
           </div>
+          <div className={classes.root}>
+            <h4>Create and maintain smartphone friendly professional looking restaurant menus via a spreasheet.</h4>
+          </div>
         </div>
       )}
     </div>
