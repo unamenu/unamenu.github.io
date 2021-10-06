@@ -55,7 +55,7 @@ export default function Main({ sectionId }) {
               <li>very easy to update</li>
             </ul>
           </div>
-          <div className={classes.body}>
+          <div className={classes.root}>
             <img src={unamenumobileexample2} className={classes.img} alt="example" width="75%" />
           </div>
           <div className={classes.root}>
